@@ -1,7 +1,7 @@
 name: "kind"
 version: "1.0.7"
 usage: "Create Local Kubernetes cluster using Kind https://kind.sigs.k8s.io/"
-description: "The plugin allows to use create Kubernetes Kind Cluster with mounted local directory, eg. for development"
+description: "The plugin allows to create Kubernetes Kind Cluster with mounted local directory, eg. for development"
 ignoreFlags: false
 command: "$HELM_PLUGIN_DIR/bin/helm-kind.sh"
 hooks:
