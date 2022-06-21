@@ -6,6 +6,7 @@
 # helm-kind
 ![Helm3 supported](https://img.shields.io/badge/Helm%203-supported-green)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/web-seven/helm-kind)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-kind)](https://artifacthub.io/packages/search?repo=helm-kind)
 
 
 `helm-kind` is a [helm](https://github.com/kubernetes/helm) plugin that allows you to create Kubernetes cluster locally using [Kind](https://kind.sigs.k8s.io/), with local directory nounted to cluster host filesystem, eg. for local development
