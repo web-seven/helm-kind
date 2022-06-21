@@ -20,7 +20,7 @@ jobs:
         with:
           path: sources
       - name: Create archive
-        run: tar --exclude="./sources/.github"  -czf ./helm-kind.tar.gz --exclude-vcs  ./sources/
+        run: tar --exclude='./.github'  -czf ./helm-kind.tar.gz --exclude-vcs -C sources  ./
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
