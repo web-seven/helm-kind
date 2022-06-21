@@ -1,5 +1,5 @@
 name: "kind"
-version: "1.0.0"
+version: "1.0.1"
 usage: "Create Local Kubernetes cluster using Kind https://kind.sigs.k8s.io/"
 description: "The plugin allows to use create Kubernetes Kind Cluster with mounted local directory, eg. for development"
 ignoreFlags: false
