@@ -17,8 +17,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          path: sources
       - name: Create archive
-        run: tar --exclude="./helm-kind/.github"  -czf ./helm-kind.tar.gz --exclude-vcs  ./helm-kind/
+        run: tar --exclude="./sources/.github"  -czf ./helm-kind.tar.gz --exclude-vcs  ./sources/
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
